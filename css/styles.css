@@ -1,0 +1,35 @@
+body {
+background:#F5F5F5    
+    color: #2E2F42; 
+}
+.list {
+    list-style: none
+}
+/* цвет основного текста #2E2F42*/
+/* вторичній цвет текста #434455 */
+
+/* цвет телефона #434455 */
+/* цвет фона кнопки background: #404BBF
+/* цвет web #4D5AE5 */ 
+/* цвет текста в кнопки #4D5AE5 */
+/* site-nav */
+.site-nav .link { 
+    color: #2E2F42;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #4D5AE5;
+}
+.section-title {
+    color: #00000
+}
+.title {
+    color: #2E2F42
+}
+
+h3{
+    color: #2E2F42
+}
+p{
+    color: #434455
+}
