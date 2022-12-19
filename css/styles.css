@@ -1,35 +1,110 @@
 body {
+    font-family: "Open Sans", sans-serif;
 background:#F5F5F5    
-    color: #2E2F42; 
+    color: rgba(0; 0; 0; 8); 
 }
+
 .list {
-    list-style: none
+ list-style: none;
 }
-/* цвет основного текста #2E2F42*/
-/* вторичній цвет текста #434455 */
+.link {
+    text-decoration: none
+}
+.site-body {
 
-/* цвет телефона #434455 */
-/* цвет фона кнопки background: #404BBF
-/* цвет web #4D5AE5 */ 
-/* цвет текста в кнопки #4D5AE5 */
-/* site-nav */
-.site-nav .link { 
-    color: #2E2F42;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #4D5AE5;
+.header {
+/*-----------HEADER-----------*/   
 }
-.section-title {
-    color: #00000
+.header-navigation {
 }
-.title {
-    color: #2E2F42;
+.hedear-list {
+}
+.header-item {
 }
 
-h3{
-    color: #2E2F42
+.hedear-link {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
-p{
-    color: #434455
+.hedear-link:hover,
+.header-link:focus {
+color: #4D5AE5;
+}
+.header-nav {
+}
+.link {
+}
+.header-email {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-email:hover,
+.header-email:focus 
+{ color: #4D5AE5 }
+
+.header-tel {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+color: #4D5AE5
+}
+
+.main {
+}
+.main-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+cursor: pointer;
+}
+.main-btn:hover {
+background: #404BBF;
+color: #ffffff;
+}
+
+.main-btn:focus {
+color: #ffffff;
+}
+
+/*-----------HERO-----------*/   
+
+.hero {
+}
+.hero-list {
+
+}
+.hero-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.hero-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.hero-item {
 }
