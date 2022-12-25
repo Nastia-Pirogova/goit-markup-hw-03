@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 background:#F5F5F5    
     color: rgba(0; 0; 0; 8); 
 }
@@ -22,6 +22,21 @@ background:#F5F5F5
 }
 .header-item {
 }
+
+.header-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+cursor: pointer
+}
+
 
 .hedear-link {
 font-weight: 600;
@@ -64,6 +79,9 @@ color: #4D5AE5
 
 .main {
 }
+.list {
+ list-style: none;
+}
 .main-btn {
 font-family: inherit;
 font-weight: 600;
@@ -77,14 +95,16 @@ color: #4D5AE5;
 cursor: pointer;
 }
 .main-btn:hover {
-background: #404BBF;
+background: #4D5AE5;
 color: #ffffff;
 }
 
 .main-btn:focus {
 color: #ffffff;
 }
-
+.list {
+ list-style: none;
+}
 /*-----------HERO-----------*/   
 
 .hero {
@@ -99,6 +119,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+
+
 .hero-text {
 font-weight: 400;
 font-size: 16px;
@@ -107,123 +129,46 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .hero-item {
-}
-
-
-
-/* .list {
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-}
-
-.site-body {
-font-family: "Open Sans", sans-serif;
-    color: #2E2F42
-}
-
-.header {
-}
-.header-navigation {
-}
-.heander-logo {
-}
-.header-list {
-}
-.header-item {
-}
-.header-link {
-font-weight: 600;
-font-size: 16px;
-line-height: 1,5px;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
-.header-link:hover,
-.header-link:focus {
-    color: #4D5AE5
-}
-
-.header-links {
-}
-
-.header-email {
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5px;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.header-tel {
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5px;
-letter-spacing: 0.02em;
-color: #434455;
-}
-
-.hero {
-background-color: #2E2F42;
-}
-
-.hero-titel {
-font-weight: 600;
-font-size: 56px;
-line-height: 1,07px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-
-}
-.header-btn {
-font-weight: 600;
-font-size: 16px;
-line-height: 1,2;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-cursor: pointer;
-}
-.hero-pre {
-}
-.hero-pre-titel {
-font-weight: 600;
-font-size: 36px;
-line-height: 1,1;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
-}
-.hero-pro-titel {
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.hero-pri-titel {
-font-weight: 500;
-font-size: 20px;
-line-height: 1,2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
-.hero-after {
-background: #F4F4FD;
+    cursor:pointer;
+    border: 0.5px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .footer {
-    background: #2E2F42;
+background: #2E2F42;
 }
-.heander-logo {
+.footer-logo {
+}
+.footer-text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
 
+
+.hero-pri-titel {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
-.footer-titel {
+
+.hero-pro-text {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1/5;
 letter-spacing: 0.02em;
-color: #E7E9FC;
-} */
+color: #434455;
+}
+.hero-pre-item {
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+
+}
