@@ -1,110 +1,155 @@
 body {
     font-family: "Open Sans", sans-serif;
-background:#F5F5F5    
-    color: rgba(0; 0; 0; 8); 
+    background: #F5F5F5;
+    color: rgba(0, 0, 0, 8);
 }
 
-.list {
- list-style: none;
+:root {
+    --header-bg-color: #2E2F42;
 }
+
+
+.list {
+    list-style: none;
+}
+
 .link {
     text-decoration: none
 }
+
 .site-body {
 
 }
+
 .header {
-/*-----------HEADER-----------*/   
+    /*-----------HEADER-----------*/
 }
+
 .header-navigation {
 }
+
 .hedear-list {
 }
+
 .header-item {
 }
 
 .hedear-link {
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
+
 .hedear-link:hover,
 .header-link:focus {
-color: #4D5AE5;
+    color: #4D5AE5;
 }
+
 .header-nav {
 }
+
 .link {
 }
+
 .header-email {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
+.hero-titel {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
 .header-email:hover,
-.header-email:focus 
-{ color: #4D5AE5 }
+.header-email:focus {
+    color: #4D5AE5
+}
 
 .header-tel {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .header-tel:hover,
 .header-tel:focus {
-color: #4D5AE5
+    color: #4D5AE5
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .main {
 }
+
 .main-btn {
-font-family: inherit;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
 }
+
 .main-btn:hover {
-background: #404BBF;
-color: #ffffff;
+    background: #404BBF;
+    color: #ffffff;
 }
 
 .main-btn:focus {
-color: #ffffff;
+    color: #ffffff;
 }
 
-/*-----------HERO-----------*/   
+/*-----------HERO-----------*/
 
 .hero {
 }
+
 .hero-list {
 
 }
+
 .hero-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
+
 .hero-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .hero-item {
 }
